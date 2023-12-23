@@ -1,0 +1,68 @@
+:root {
+    --stan-border: solid thick black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-box, .controller, .controller > div {
+    border: var(--stan-border);
+    background-color: white;
+}
+
+.nodes {
+    > div {
+        background-color: aqua;
+        border: solid thick blue;
+        width: 5px;
+        height: 5px;
+    }
+}
+
+.game-box {
+    width: 50vh;
+    height: 50vh;
+    position: relative;
+    /* background-image: ; */
+}
+
+.controller {
+    position: relative;
+    width: 140px;
+    height: 140px;
+
+    > div {
+        position: absolute;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#top {
+    left: 45px;
+    top: 0;
+}
+#right {
+    right: 0;
+    top: 45px;
+}
+#bottom {
+    left: 45px;
+    bottom: 0;
+}
+#left {
+    left: 0;
+    top: 45px;
+}
+
+@media screen and (min-width: 1024px) {
+    .controller {
+        display: none;
+    }
+}
