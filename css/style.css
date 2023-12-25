@@ -1,5 +1,5 @@
 :root {
-    --stan-border: solid thick black;
+    --stan-border: solid 10px black;
 }
 
 main {
@@ -22,6 +22,12 @@ main {
     }
 }
 
+#test-node {
+    position: absolute;
+    /* left: 20px;
+    top: 20px; */
+}
+
 .game-box {
     width: 50vh;
     height: 50vh;
@@ -31,38 +37,52 @@ main {
 
 .controller {
     position: relative;
-    width: 140px;
-    height: 140px;
+    /* width: 140px;
+    height: 140px; */
+    width: 280px;
+    height: 280px;
 
     > div {
         position: absolute;
         display: flex;
-        width: 40px;
-        height: 40px;
+        /* width: 40px;
+        height: 40px; */
+        width: 80px;
+        height: 80px;
+        /* background-color: black;
+        color: white; */
         justify-content: center;
         align-items: center;
     }
 }
 
 #top {
-    left: 45px;
+    /* left: 45px; */
+    left: 90px;
     top: 0;
 }
 #right {
     right: 0;
-    top: 45px;
+    /* top: 45px; */
+    top: 90px;
 }
 #bottom {
-    left: 45px;
+    /* left: 45px; */
+    left: 90px;
     bottom: 0;
 }
 #left {
     left: 0;
-    top: 45px;
+    /* top: 45px; */
+    top: 90px;
 }
 
 @media screen and (min-width: 1024px) {
     .controller {
         display: none;
+    }
+
+    .game-box {
+        margin-top: 10vh;
     }
 }
