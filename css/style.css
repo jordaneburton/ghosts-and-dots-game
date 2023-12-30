@@ -391,3 +391,15 @@ main {
         margin-top: 10vh;
     }
 }
+
+@media screen and (max-width: 400px) {
+    /* .controller {
+        size to screen
+    } */
+
+    .game-box {
+        margin-top: 5vh;
+        width: 90vw;
+        height: 50vh;
+    }
+}
