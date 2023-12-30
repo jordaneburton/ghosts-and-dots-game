@@ -15,24 +15,25 @@ main {
 
 .nodes {
     > div {
-        background-color: aqua;
-        border: solid thick blue;
+        background-color: greenyellow;
+        /* border: solid thick blue; */
+        position: absolute;
         width: 5px;
         height: 5px;
+        width: 8%;
+        height: 8%;
+        border-radius: 50%;
     }
-}
-
-#test-node {
-    position: absolute;
-    /* left: 20px;
-    top: 20px; */
 }
 
 .game-box {
     width: 50vh;
     height: 50vh;
     position: relative;
-    /* background-image: ; */
+    background-image: url(".././assets/background.png");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 }
 
 .controller {
@@ -75,6 +76,310 @@ main {
     left: 0;
     /* top: 45px; */
     top: 90px;
+}
+
+
+/* QUADRANT 1 */
+/* row 1 */
+#node1 {
+    left: 1.5%;
+    top: 1%;
+}
+#node2 {
+    left: 19.5%;
+    top: 1%;
+}
+#node3 {
+    left: 40.5%;
+    top: 1%;
+}
+
+/* row 2 */
+#node4 {
+    left: 1.5%;
+    top: 13.5%;
+}
+#node5 {
+    left: 19.5%;
+    top: 13.5%;
+}
+#node6 {
+    left: 30%;
+    top: 13.5%;
+}
+#node7 {
+    left: 40.5%;
+    top: 13.5%;
+}
+
+/* row 3 */
+#node8 {
+    left: 1.5%;
+    top: 23%;
+}
+#node9 {
+    left: 19.5%;
+    top: 23%;
+}
+#node10 {
+    left: 30%;
+    top: 23%;
+}
+#node11 {
+    left: 40.5%;
+    top: 23%;
+}
+
+/* row 4 */
+#node12 {
+    left: 30%;
+    top: 33%;
+}
+#node13 {
+    left: 40.5%;
+    top: 33%;
+}
+
+
+/* QUADRANT 2 */
+/* row 1 */
+#node14 {
+    right: 1.5%;
+    top: 1%;
+}
+#node15 {
+    right: 19.5%;
+    top: 1%;
+}
+#node16 {
+    right: 40.5%;
+    top: 1%;
+}
+
+/* row 2 */
+#node17 {
+    right: 1.5%;
+    top: 13.5%;
+}
+#node18 {
+    right: 19.5%;
+    top: 13.5%;
+}
+#node19 {
+    right: 30%;
+    top: 13.5%;
+}
+#node20 {
+    right: 40.5%;
+    top: 13.5%;
+}
+
+/* row 3 */
+#node21 {
+    right: 1.5%;
+    top: 23%;
+}
+#node22 {
+    right: 19.5%;
+    top: 23%;
+}
+#node23 {
+    right: 30%;
+    top: 23%;
+}
+#node24 {
+    right: 40.5%;
+    top: 23%;
+}
+
+/* row 4 */
+#node25 {
+    right: 30%;
+    top: 33%;
+}
+#node26 {
+    right: 40.5%;
+    top: 33%;
+}
+
+
+/* QUADRANT 3 */
+/* row 1 */
+#node27 {
+    left: 1.5%;
+    bottom: 0.5%;
+}
+#node28 {
+    left: 19.5%;
+    bottom: 0.5%;
+}
+#node29 {
+    left: 40.5%;
+    bottom: 0.5%;
+}
+
+/* row 2 */
+#node30 {
+    left: 1.5%;
+    bottom: 10%;
+}
+#node31 {
+    left: 19.5%;
+    bottom: 10%;
+}
+#node32 {
+    left: 30%;
+    bottom: 10%;
+}
+#node33 {
+    left: 40.5%;
+    bottom: 10%;
+}
+
+/* row 3 */
+#node34 {
+    left: 1.5%;
+    bottom: 19.5%;
+}
+#node35 {
+    left: 19.5%;
+    bottom: 19.5%;
+}
+#node36 {
+    left: 30%;
+    bottom: 19.5%;
+}
+#node37 {
+    left: 40.5%;
+    bottom: 19.5%;
+}
+
+/* row 4 */
+#node38 {
+    left: 30%;
+    bottom: 29%;
+}
+#node39 {
+    left: 40.5%;
+    bottom: 29%;
+}
+
+
+/* QUADRANT 4 */
+/* row 1 */
+#node40 {
+    right: 1.5%;
+    bottom: 0.5%;
+}
+#node41 {
+    right: 19.5%;
+    bottom: 0.5%;
+}
+#node42 {
+    right: 40.5%;
+    bottom: 0.5%;
+}
+
+/* row 2 */
+#node43 {
+    right: 1.5%;
+    bottom: 10%;
+}
+#node44 {
+    right: 19.5%;
+    bottom: 10%;
+}
+#node45 {
+    right: 30%;
+    bottom: 10%;
+}
+#node46 {
+    right: 40.5%;
+    bottom: 10%;
+}
+
+/* row 3 */
+#node47 {
+    right: 1.5%;
+    bottom: 19.5%;
+}
+#node48 {
+    right: 19.5%;
+    bottom: 19.5%;
+}
+#node49 {
+    right: 30%;
+    bottom: 19.5%;
+}
+#node50 {
+    right: 40.5%;
+    bottom: 19.5%;
+}
+
+/* row 4 */
+#node51 {
+    right: 30%;
+    bottom: 29%;
+}
+#node52 {
+    right: 40.5%;
+    bottom: 29%;
+}
+
+
+/* FORGOTTEN NODES FOR Q3&4 */
+/* Q3 */
+#node53 {
+    left: 9%;
+    bottom: 19.5%;
+}
+#node54 {
+    left: 1.5%;
+    bottom: 29%;
+}
+#node55 {
+    left: 19.5%;
+    bottom: 29%;
+}
+/* Q4 */
+#node56 {
+    right: 9%;
+    bottom: 19.5%;
+}
+#node57 {
+    right: 1.5%;
+    bottom: 29%;
+}
+#node58 {
+    right: 19.5%;
+    bottom: 29%;
+}
+
+
+/* MIDDLE SECTION */
+#node59 {
+    left: 19.5%;
+    bottom: 49%;
+}
+#node60 {
+    left: 30%;
+    bottom: 49%;
+}
+#node61 {
+    left: 30%;
+    bottom: 39%;
+}
+#node62 {
+    right: 19.5%;
+    bottom: 49%;
+}
+#node63 {
+    right: 30%;
+    bottom: 49%;
+}
+#node64 {
+    right: 30%;
+    bottom: 39%;
 }
 
 @media screen and (min-width: 1024px) {
